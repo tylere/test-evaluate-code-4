@@ -1,7 +1,8 @@
 _docs/
 _proc/
+deps/
 
-*.bak
+*.ak
 .gitattributes
 .last_checked
 .gitconfig
