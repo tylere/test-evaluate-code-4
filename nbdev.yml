@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "test-evaluate-code-4"
+  site-url: "https://tylere.github.io/test-evaluate-code-4"
+  description: "Testing."
+  repo-branch: main
+  repo-url: "https://github.com/tylere/test-evaluate-code-4"
