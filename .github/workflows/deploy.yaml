@@ -3,6 +3,8 @@ on:
   push:
     branches: [ "main", "master" ]
   workflow_dispatch:
+env:
+  TEST_ENV_VAR: test_env_set_on_github
 jobs:
   deploy:
     runs-on: ubuntu-latest
