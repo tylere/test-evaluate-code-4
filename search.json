@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "test-evaluate-code-4",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "test-evaluate-code-4",
+    "section": "Install",
+    "text": "Install\npip install test_evaluate_code_4"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "test-evaluate-code-4",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2\n\n\n\nimport ipywidgets\n\n\nipywidgets.IntSlider()"
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "source\n\nfoo\n\n foo ()\n\n\nimport ipywidgets\n\n\nipywidgets.IntSlider()\n\n\n\n\n\nfrom datetime import datetime\n\n\nprint(datetime.now())\n\n2022-09-25 00:30:08.731380\n\n\n\nimport os\ntest_env_var = os.environ.get('TEST_ENV_VAR')\nprint(f'test_env_var = {test_env_var}')\n\ntest_env_var = test_env_set_on_github"
+  }
+]
