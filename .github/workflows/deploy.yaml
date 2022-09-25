@@ -9,5 +9,10 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: Write Earth Engine credentials file
+        run: |
+          echo "DEBUG EGGPLANT"
+          echo $TEST_ENV_VAR
+          echo "DEBUG EGGPLANT"
       - uses: fastai/workflows/quarto-ghp@master
         with: {pre: 1}
